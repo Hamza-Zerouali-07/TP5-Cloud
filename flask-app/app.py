@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return f"message changé\n"
 
-@app.route("/healthx")
+@app.route("/health")
 def health():
     return "ok\n"
 
